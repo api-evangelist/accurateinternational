@@ -1,4 +1,4 @@
-# Accurateinternational
+# Accurate International
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,21 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Accurateinternational is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/accurateinternational
+Accurate International Biotechnology (ACCURATE) is a Guangzhou, China biotechnology company
+founded in 2018 that builds the full industry chain around organoid technology for cancer
+precision medicine, new-drug R&D and regenerative medicine. Its products are wet-lab reagents,
+chips and instruments — Accuroid organoid culture media, the AccuArray microarray organoid chip,
+the AOMF microfluidic organoid chip and 3D bioprinter, the AccuLumi chemiluminescence detector and
+Accuauto culture workstations — sold alongside BUDcare/BUDhealth patient-derived tumor organoid
+drug-sensitivity testing and organoid-model drug discovery services for pharma.
+
+**No public API surface.** Enrichment probing on 2026-09-06 found no OpenAPI, GraphQL, gRPC,
+WSDL, AsyncAPI, MCP server or A2A agent card on any host this company operates, and no
+`/.well-known/` document on either `en.bio-accurate.com` or `www.bio-accurate.com`. The
+ThinkPHP application behind the site answers HTTP 200 with a Chinese soft-404 error page for any
+unknown path, so `/llms.txt` and `/api-docs` return 200 while serving no document. The company's
+digital assets — the AOD Tronchip organoid database (2023) and a cancer AI model (2024) — are
+internal R&D tooling with no published interface.
+
+- Website: https://en.bio-accurate.com/ (Chinese: https://www.bio-accurate.com/)
+- Venue listing this profile was harvested from: https://equityzen.com/company/accurateinternational

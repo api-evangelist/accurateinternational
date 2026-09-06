@@ -1,0 +1,63 @@
+generated: '2026-09-06'
+method: probed
+source: >-
+  Live anonymous GET of the named /.well-known/ path list on every host in this record
+  (en.bio-accurate.com, www.bio-accurate.com), browser User-Agent, 2026-09-06.
+note: >-
+  Every probed /.well-known/ path returned a genuine nginx 404 (548-byte body) on both hosts, so
+  NO WellKnown or SecurityTxt pointer is wired — this file records a measured absence, not a
+  served surface. Separately worth recording for future rounds: the ThinkPHP application behind
+  bio-accurate.com answers HTTP 200 with a 47,335-byte Chinese error page ("页面出错了") for ANY
+  unknown non-/.well-known/ path, so /llms.txt and /api-docs both returned 200 while serving that
+  same soft-404 shell. A control path (/this-path-does-not-exist-xyz123) returned the identical
+  byte-for-byte body. Those 200s are NOT documents and were not saved.
+hosts:
+- host: en.bio-accurate.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+- host: www.bio-accurate.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
