@@ -64,21 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Accurate International Biotechnology (ACCURATE) is a Guangzhou, China biotechnology company
-founded in 2018 that builds the full industry chain around organoid technology for cancer
-precision medicine, new-drug R&D and regenerative medicine. Its products are wet-lab reagents,
-chips and instruments — Accuroid organoid culture media, the AccuArray microarray organoid chip,
-the AOMF microfluidic organoid chip and 3D bioprinter, the AccuLumi chemiluminescence detector and
-Accuauto culture workstations — sold alongside BUDcare/BUDhealth patient-derived tumor organoid
-drug-sensitivity testing and organoid-model drug discovery services for pharma.
+Accurate International Biotechnology (trading as ACCURATE, 广州创芯国际生物科技有限公司) is a Guangzhou, China biotechnology company founded in 2018 that builds the full industry chain around organoid technology for cancer precision medicine, new drug research and regenerative medicine. Its products are wet-lab reagents, instruments and consumables rather than software: Accuroid organoid culture media, the AccuArray microarray organoid chip, the AOMF microfluidic organoid chip and 3D bioprinter, the AccuLumi high-throughput chemiluminescence detector, and Accuauto automated organoid culture workstations. On top of those it sells services — BUDcare and BUDhealth patient-derived tumor organoid drug-sensitivity testing delivered through Guangzhou Chuangxin Independent Clinical Laboratory, and organoid-model new-drug R&D services for pharma — and reports 32,000+ organoid cultures, 5,000+ tumor organoid models, 200+ clinical collaborators and 100+ filed patents. It holds subsidiaries in Beijing, Shanghai and Macau plus a European entity, and has raised Pre-A (2020), Series A (2021), a 100M RMB Pre-B (2022) and a Series B (2024). ACCURATE describes internal digital assets — the AOD Tronchip organoid database launched in 2023 and a cancer "deep-thinking" AI model built in 2024 — but publishes no developer portal, API reference, SDK, CLI, status page or public GitHub organization, and no OpenAPI, AsyncAPI, GraphQL, MCP or A2A agent-card surface was found on any host it operates.
 
-**No public API surface.** Enrichment probing on 2026-09-06 found no OpenAPI, GraphQL, gRPC,
-WSDL, AsyncAPI, MCP server or A2A agent card on any host this company operates, and no
-`/.well-known/` document on either `en.bio-accurate.com` or `www.bio-accurate.com`. The
-ThinkPHP application behind the site answers HTTP 200 with a Chinese soft-404 error page for any
-unknown path, so `/llms.txt` and `/api-docs` return 200 while serving no document. The company's
-digital assets — the AOD Tronchip organoid database (2023) and a cancer AI model (2024) — are
-internal R&D tooling with no published interface.
+**Areas:** Company · Biotechnology · Life Sciences · Precision Medicine · Oncology · Organoids · Laboratory Instruments · Clinical Diagnostics · Drug Discovery · China
 
-- Website: https://en.bio-accurate.com/ (Chinese: https://www.bio-accurate.com/)
-- Venue listing this profile was harvested from: https://equityzen.com/company/accurateinternational
+## Accurate International on APIs.io
+
+Everything profiled for Accurate International is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/accurateinternational/](https://apis.io/providers/accurateinternational/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Accurateinternational Domain Security](https://apis.io/security/accurateinternational/accurateinternational-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://en.bio-accurate.com/)
+- [Blog](https://en.bio-accurate.com/news/dynamic/)
+
+## API Evangelist rating
+
+**Kin Score 4.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 1.2 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/accurateinternational/](https://apis.io/providers/accurateinternational/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Accurate International: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/accurateinternational/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
